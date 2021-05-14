@@ -14,7 +14,7 @@ hormonaltrees <- read.csv("http://webhome.auburn.edu/~tds0009/WILD7150/Assignmen
 # Dataset 3: Repeated measures of tree height of 16 trees over 10 yrs to understand growth trajectory
 agingtrees <- read.csv("http://webhome.auburn.edu/~tds0009/WILD7150/Assignments/Assign6a.csv")
 
-# Dataset 4: Lotus size (grams) for flowers in 3 different countries (w/ continuous variables for elevation and latitude)
+# Dataset 4: Lotus size (grams) from 3 different countries (w/ continuous variables for elevation and latitude)
 lotuscountry <- read.csv("http://webhome.auburn.edu/~tds0009/WILD7150/Assignments/Assignment4.csv")
 
 usethis::use_data(agingtrees, overwrite = TRUE)

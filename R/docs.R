@@ -1,3 +1,15 @@
+#' @title lotuscountry
+#' @description Dataset 4: Lotus size (grams) from 3 different countries (w/ continuous variables for elevation and latitude)
+#' @format A data frame with 100 rows and 4 variables:
+#' \describe{
+#'   \item{\code{Latitude}}{double Latitude in degrees (continuous)}
+#'   \item{\code{Elevation}}{integer Elevation in meter (continuous) }
+#'   \item{\code{Country}}{character Country lotus data was collected: Nepal, India, Tibet}
+#'   \item{\code{Size}}{double Lotus plant size in grams}
+#'}
+#' @source \url{http://webhome.auburn.edu/~tds0009/WILD7150/Assignments/Assign6b.csv}
+"pickygrasshoppers"
+
 #' @title agingtrees
 #' @description Dataset 3: Repeated meausures of tree height of 16 trees over 10 yrs to understand growth trajectory
 #' @format A data frame with 176 rows and 3 variables:
@@ -26,7 +38,7 @@
 #' @format A data frame with 24 rows and 3 variables:
 #' \describe{
 #'   \item{\code{Field}}{integer FIELD ID}
-#'   \item{\code{Plot}}{integer Treatments to Plot: Control (nothing), dBurn (Burned), Fertilize (Fertilized) }
+#'   \item{\code{Plot}}{character Treatments to Plot: Control (nothing), dBurn (Burned), Fertilize (Fertilized) }
 #'   \item{\code{Density}}{double Hopper Density: Number of grasshoppers per hectare}
 #'}
 #' @source \url{http://webhome.auburn.edu/~tds0009/WILD7150/Assignments/Assign6b.csv}
