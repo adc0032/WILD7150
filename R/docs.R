@@ -8,7 +8,7 @@
 #'   \item{\code{Size}}{double Lotus plant size in grams}
 #'}
 #' @source \url{http://webhome.auburn.edu/~tds0009/WILD7150/Assignments/Assign6b.csv}
-"pickygrasshoppers"
+"lotuscountry"
 
 #' @title agingtrees
 #' @description Dataset 3: Repeated meausures of tree height of 16 trees over 10 yrs to understand growth trajectory

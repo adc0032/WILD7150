@@ -8,7 +8,7 @@
 A data frame with 24 rows and 3 variables:
 \describe{
   \item{\code{Field}}{integer FIELD ID}
-  \item{\code{Plot}}{integer Treatments to Plot: Control (nothing), dBurn (Burned), Fertilize (Fertilized) }
+  \item{\code{Plot}}{character Treatments to Plot: Control (nothing), dBurn (Burned), Fertilize (Fertilized) }
   \item{\code{Density}}{double Hopper Density: Number of grasshoppers per hectare}
 }
 }
